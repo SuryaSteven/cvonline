@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript">
+		function klik(){
+			var N = document.getElementById("nama").value;
+			window.alert("Terima Kasih "+N+" telah mengajukan penawaran, jika saya tertarik akan saya hubungi baik melalui email ataupun Nohp yang telah diberikan. Terima Kasih");
+		}
+	</script>
+</head>
+<body>
+	<div class="header">
+  	<img class="imgs" src="s.png">
+  	<div class="header-right">
+    <a class="hom" href="index.html">Home</a>
+    <a class="abo" href="about.html">About</a>
+    <a class="porto" href="portfolio.html">Portfolio</a>
+    <a class="active" href="contact.html">Contact</a>
+ 	</div>
+	</div>
+
+	<div class="hubungi">
+			<div id="headnya">Ini adalah Box tempat anda memberikan penawaran jika anda tertarik untuk menyewa jasa saya baik itu programming ataupun business analyst</div>
+			
+			<form action="index.html">
+				Nama : <input type="text" id="nama"/><br>
+				
+				Email : <input type="email" id="email"/><br>
+				
+				NoHp : <input type="type" id="NoHp"><br>
+				<label id="penawaran">Penawaran:</label>
+				</br>
+				<textarea id="komentar" rows="7" cols="50"></textarea>
+				<br />
+				<button onclick="klik()">Hire</button>
+			</form>
+	</div>
+
+	<div class="footer">
+    © Copyright - Steven Surya (00000015702)
+  </div>
+</body>
+</html>
